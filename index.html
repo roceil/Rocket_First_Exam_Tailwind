@@ -12,12 +12,23 @@
       rel="stylesheet"
     />
 
-    <title>首頁</title>
+    <!-- OG TAG -->
+    <meta property="og:type" content="JOANNEの世界" />
+    <meta property="og:title" content="Founder of “XXXD Official’’ & Graphic Designer" />
+    <meta
+      property="og:description"
+      content="How much does culture influence creative thinking?"
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/photo.png"
+    />
+
+    <title>Here's JOANNE</title>
     <link rel="stylesheet" href="./assets/style/all.css" />
   </head>
 
   <body>
-
     
 <main>
   <!-- JOANNE -->
@@ -36,7 +47,7 @@
       <!-- icon區塊 -->
       <ul class="flex justify-center items-center space-x-4">
         <!-- behance -->
-        <li>
+        <li class="lg:hover-op300">
           <a href="#">
             <img
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/behance.svg"
@@ -44,30 +55,30 @@
             />
           </a>
         </li>
-        <!-- behance -->
-        <li>
+        <!-- facebook -->
+        <li class="lg:hover-op300">
           <a href="#">
             <img
-              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/behance.svg"
-              alt="behance"
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/facebook.svg"
+              alt="facebook"
             />
           </a>
         </li>
-        <!-- behance -->
-        <li>
+        <!-- instagram -->
+        <li class="lg:hover-op300">
           <a href="#">
             <img
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/behance.svg"
-              alt="behance"
+              alt="instagram"
             />
           </a>
         </li>
-        <!-- behance -->
-        <li>
+        <!-- youtube -->
+        <li class="lg:hover-op300">
           <a href="#">
             <img
-              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/behance.svg"
-              alt="behance"
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/youtube.svg"
+              alt="youtube"
             />
           </a>
         </li>
@@ -160,9 +171,9 @@
       </ul>
 
       <!-- 第二行圖片 -->
-      <ul class="md:flex md:-mx-6">
+      <ul class="md:flex md:space-x-6">
         <!-- 02 -->
-        <li class="mt-10 md:w-1/2 md:px-6">
+        <li class="mt-10 md:w-1/2">
           <img
             src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/brand_img2.png"
             alt="brand2"
@@ -170,7 +181,7 @@
         </li>
 
         <!-- 03 -->
-        <li class="mt-10 md:w-1/2 md:px-6">
+        <li class="mt-10 md:w-1/2">
           <img
             src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/brand_img3.png"
             alt="brand3"
@@ -179,6 +190,7 @@
       </ul>
     </div>
   </section>
+
 
   <!-- Other Works -->
   <section class="py-14 md:pb-[144px]">
@@ -195,7 +207,7 @@
       </p>
     </div>
     <!-- 圖片列表 -->
-    <div class="flex flex-col justify-center items-center">
+    <div class="flex flex-col justify-center items-center container">
       <!-- 第一行圖片 -->
       <ul class="md:flex md:space-x-6">
         <!-- 01 -->
@@ -232,7 +244,7 @@
       <!-- 第二行圖片 -->
       <ul class="mt-6 md:flex md:space-x-6 md:mt-12">
         <!-- 04 -->
-        <li class="flex flex-col justify-center items-center">
+        <li class="flex flex-col justify-center items-center max-w-[384px] md:max-w-none">
           <img
             class="mb-4"
             src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/work_img4.png"
@@ -286,14 +298,22 @@
       </ul>
     </div>
   </section>
+
+  <!-- todo 圖片 -->
 </main>
 
 
-    <footer class="bg-black ">
+    <footer class="bg-black">
       <div class="container text-white text-center py-[64px]">
         <h2 class="text-5xl md:text-[64px] leading-[1.3125] mb-4">Contact</h2>
-        <a class="block mb-4 md:text-2xl" href="mailto:xxxd@hexschool.com">Mail：xxxd@hexschool.com</a>
-        <a class="block md:text-2xl" href="tel:+886910123456">Phone Number：0910123456</a>
+        <a
+          class="block mb-4 md:text-2xl lg:hover-op300"
+          href="mailto:xxxd@hexschool.com"
+          >Mail：xxxd@hexschool.com</a
+        >
+        <a class="block md:text-2xl lg:hover-op300" href="tel:+886910123456"
+          >Phone Number：0910123456</a
+        >
       </div>
     </footer>
     <script src="./assets/js/vendors.js"></script>
