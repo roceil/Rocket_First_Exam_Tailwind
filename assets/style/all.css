@@ -390,7 +390,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 [hidden] {
   display: none;
 }
-  body {
+  html body {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     line-height: 1.5;
