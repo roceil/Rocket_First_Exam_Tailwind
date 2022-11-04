@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./app/**/*.{html,ejs}"],
   theme: {
+    fontFamily: {
+      'body': ["Roboto", 'sans-serif'],
+    },
     extend: {
       backgroundImage: {
         banner:
@@ -15,14 +18,16 @@ module.exports = {
         padding: "20px",
       },
       screens: {
+        sm: "588px",
+        // => @media (min-width: 588px) { ... }
         md: "768px",
-        // => @media (min-width: 768) { ... }
+        // => @media (min-width: 768px) { ... }
 
         lg: "1024px",
         // => @media (min-width: 1024px) { ... }
 
         xl: "1240px",
-        // => @media (min-width: 1240) { ... }
+        // => @media (min-width: 1240px) { ... }
       },
     },
     plugins: [
