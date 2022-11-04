@@ -542,6 +542,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .min-h-\[265\.31px\] {
   min-height: 265.31px;
 }
+.min-h-\[237px\] {
+  min-height: 237px;
+}
 .w-4 {
   width: 1rem;
 }
@@ -631,15 +634,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.hover-op300:hover {
-  opacity: 0.5;
-  -webkit-transition-duration: 300ms;
-       -o-transition-duration: 300ms;
-          transition-duration: 300ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .after\:absolute::after {
   content: var(--tw-content);
@@ -687,11 +681,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 @media (min-width: 768px) {
 
-  .md\:-mx-6 {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-  }
-
   .md\:mr-4 {
     margin-right: 1rem;
   }
@@ -730,11 +719,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 
   .md\:pb-\[160px\] {
